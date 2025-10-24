@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -g -I. -lpthread
+CFLAGS = -Wall -g -I. -DDEBUG -lpthread
 DEPS =
 
 # Regla genérica para compilar .c a .o
